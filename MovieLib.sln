@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLib.Data", "MovieLib.Data\MovieLib.Data.csproj", "{E9ABDDC6-150F-45C9-9249-23D7A52F0A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLib.API", "MovieLib.API\MovieLib.API.csproj", "{78FFB3E5-20AF-40F8-A5EF-4BF186565820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLib.BL", "MovieLib.BL\MovieLib.BL.csproj", "{F4F184E2-6A3D-4BD3-A2F9-33FE6B8690F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLib.Web", "MovieLib.Web\MovieLib.Web.csproj", "{1FE507B5-D366-4DDE-B89C-F2B73BCCECC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9ABDDC6-150F-45C9-9249-23D7A52F0A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9ABDDC6-150F-45C9-9249-23D7A52F0A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9ABDDC6-150F-45C9-9249-23D7A52F0A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9ABDDC6-150F-45C9-9249-23D7A52F0A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78FFB3E5-20AF-40F8-A5EF-4BF186565820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FFB3E5-20AF-40F8-A5EF-4BF186565820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FFB3E5-20AF-40F8-A5EF-4BF186565820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FFB3E5-20AF-40F8-A5EF-4BF186565820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F184E2-6A3D-4BD3-A2F9-33FE6B8690F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F184E2-6A3D-4BD3-A2F9-33FE6B8690F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F184E2-6A3D-4BD3-A2F9-33FE6B8690F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F184E2-6A3D-4BD3-A2F9-33FE6B8690F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE507B5-D366-4DDE-B89C-F2B73BCCECC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE507B5-D366-4DDE-B89C-F2B73BCCECC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE507B5-D366-4DDE-B89C-F2B73BCCECC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE507B5-D366-4DDE-B89C-F2B73BCCECC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
