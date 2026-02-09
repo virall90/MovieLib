@@ -5,12 +5,12 @@ import { Provider } from "react-redux";
 import { ConnectedRouter } from "connected-react-router";
 import { createBrowserHistory } from "history";
 import configureStore from "./store/configureStore";
-import {App} from "./App";
 import registerServiceWorker from "./registerServiceWorker";
 import { ConfigProvider } from "antd";
 import ruRU from "antd/es/locale/ru_RU";
 import moment from 'moment';
 import 'moment/locale/ru';
+import App from "./App";
 moment.locale('ru-RU')
 
 moment.locale('ru-RU')

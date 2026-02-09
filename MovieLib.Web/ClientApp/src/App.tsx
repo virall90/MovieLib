@@ -13,7 +13,7 @@ import {Spin} from "antd";
 import 'antd/es/spin/style/css';
 import {initApi} from "./apiClient/initApi";
 
-export const App = () => {
+const App = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(undefined as string | undefined);
 
@@ -53,3 +53,5 @@ export const App = () => {
         </Layout>
     )
 };
+
+export default App;
